@@ -1,6 +1,6 @@
 // this file helps when we need to change backend service so only this file had to change when service changes not to change whole frontend
 
-import config from '../config.js' // For projectId and env file url 
+import config from '../config/config.js' // For projectId and env file url 
 
 import { Client, Account, ID } from "appwrite"; // APPWRITE documentation se 
 
